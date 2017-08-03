@@ -2,7 +2,6 @@ from math import  exp, tanh, ceil, floor, sqrt
 from statistics import median
 from copy import deepcopy, copy
 from random import random, randint, gauss
-#import pdb # debugging lib
 
 Inputs = 2
 Outputs = 1
