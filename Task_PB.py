@@ -153,5 +153,3 @@ def Evaluator(NN):
     PB.restIV()
     NN.fitness = n/(N-1)
     return NN.fitness
-
-#pygame.quit()
