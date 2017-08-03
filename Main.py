@@ -1,12 +1,7 @@
 import NEATyGritty as NEAT
 import Task_PB as Tsk
-#import matplotlib.pyplot as plt
-import pylab as plt
-
-#import matplotlib
+import matplotlib.pyplot as plt
 #from copy import deepcopy, copy
-
-#matplotlib.rcParams['backend'] = "Qt4Agg"
 
 NEAT.Inputs = Tsk.InOut['in']
 NEAT.Outputs = Tsk.InOut['out']
@@ -15,8 +10,6 @@ NEAT.OutFunc = Tsk.InOut['activations']
 NEAT.pool.firstGeneration()
 
 plt.ion()
-#plt.plot([0,3,2])
-#plt.show()
 
 def Loop():
     x = {}
